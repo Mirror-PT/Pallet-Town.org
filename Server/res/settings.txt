@@ -1,0 +1,5 @@
+localhost
+PokeNET_2k13
+root
+PokeNET
+ 

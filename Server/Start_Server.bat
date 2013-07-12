@@ -1,0 +1,1 @@
+java -jar PokeNET_2k13_server.jar -s low -p 15

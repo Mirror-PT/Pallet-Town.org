@@ -1,0 +1,20 @@
+Path: null
+Tue Jul 02 09:19:44 BST 2013 INFO:Slick Build #266
+Tue Jul 02 09:19:43 BST 2013 INFO:Initialising sounds..
+Tue Jul 02 09:19:44 BST 2013 INFO:LWJGL Version: 2.7.1
+Tue Jul 02 09:19:44 BST 2013 INFO:OriginalDisplayMode: 1440 x 900 x 32 @60Hz
+Tue Jul 02 09:19:44 BST 2013 INFO:TargetDisplayMode: 800 x 600 x 0 @0Hz
+Tue Jul 02 09:19:45 BST 2013 INFO:- Sound works
+Tue Jul 02 09:19:45 BST 2013 INFO:- 64 OpenAL source available
+Tue Jul 02 09:19:45 BST 2013 INFO:- Sounds source generated
+Tue Jul 02 09:19:46 BST 2013 INFO:Starting display 800x600
+Tue Jul 02 09:19:46 BST 2013 INFO:Use Java PNG Loader = true
+Tue Jul 02 09:19:46 BST 2013 INFO:Controllers not available
+Tue Jul 02 09:19:47 BST 2013 INFO:Early loading of deferred resource due to req: res/skin/shared/verdana.png
+Tue Jul 02 09:19:47 BST 2013 INFO:Early loading of deferred resource due to req: res/fonts/chatname.png
+Tue Jul 02 09:19:47 BST 2013 INFO:Early loading of deferred resource due to req: res/fonts/chatname-small.png
+Tue Jul 02 09:19:47 BST 2013 INFO:Early loading of deferred resource due to req: res/fonts/dp.png
+Tue Jul 02 09:19:47 BST 2013 INFO:Early loading of deferred resource due to req: res/fonts/dp-small.png
+Tue Jul 02 09:19:47 BST 2013 INFO:Early loading of deferred resource due to req: res/skin/simple/closewindow.png
+Tue Jul 02 09:19:47 BST 2013 INFO:Early loading of deferred resource due to req: res/ui/loading.png
+Tue Jul 02 09:19:48 BST 2013 INFO:Early loading of deferred resource due to req: bg

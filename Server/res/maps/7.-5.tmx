@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="72" height="20" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayPokemonChances" value="Weedle,12;Caterpie,12;Bellsprout,15;Pidgey,15;Kakuna,15;Metapod,15;Abra,14;Weepinbell,1;Pidgeotto,1;"/>
+  <property name="dayPokemonLevels" value="7-7;7-7;12-14;12-13;8-8;8-8;8-12;12-12;10-10;"/>
+  <property name="fishPokemonChances" value="Magikarp,43;Krabby,20;Horsea,20;Gyarados,15;Psyduck,1;Slowpoke,1;"/>
+  <property name="fishPokemonLevels" value="5-15;5-35;5-35;15-25;25-35;25-35;"/>
+  <property name="nightPokemonChances" value="Oddish,33;Venonat,33;Abra,16;Venomoth,1;Gloom,1;Hoothoot,15;Noctowl,1;"/>
+  <property name="nightPokemonLevels" value="12-14;13-16;8-12;10-10;12-12;12-13;10-10;"/>
+  <property name="waterPokemonChances" value="Tentacool,50;Goldeen,49;Seaking,1;"/>
+  <property name="waterPokemonLevels" value="5-40;5-14;10-14;"/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="384"/>
+  <property name="yOffsetModifier" value="-320"/>
+ </properties>
+ <tileset firstgid="1" source="normal1.tsx"/>
+ <tileset firstgid="1025" source="normal2.tsx"/>
+ <tileset firstgid="2049" source="normal3.tsx"/>
+ <tileset firstgid="3073" source="normal5.tsx"/>
+ <layer name="Walkable" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO1VUW7CMAwlga+dYwOuMSYE14AN2DVgZ9t5doWlQpU8y++5JkUM1Cc9tU3cJO/VdkejATX4Hv99njwQmc4avVlcM5lDY2juZ3K+t67ZPv7FYF5JdNlX64mS+crG9Py1YeVQxB+tgfmmdaJnL1bvZxGdOfqOBZZbci99Rksz08/i9dnbemrrS69h+fdcbl4Kp5nnseePzqFIn0B6UI+K9CfkDXpHetJwKdiONV6h/O6KVeJcFs4E54nrj9ST16vYfMOPMrAj3Gecp335o7lOuN6s3lTjA4vzatv7Jl1xSDF+JnxulEcst6y6klcZh/BauBB8I7FRf+4BnqZN4VbwvWItDfRfQbnr1YfXv1FtonqV8wjHwpPgF4m91J//zFbT7Mmm9U1QbNSf5n/PWAtvfW8P1sNr2Ae6aKv10VuL1dW9oE/v9LuP4M81MfjDMfjDMfjDcWt/fgFPPT5vgBYAAA==
+  </data>
+ </layer>
+ <layer name="Grass" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3QMQ0AAAjAMKzg3yQO4OIgtMkMLALYlEPf+dPzBwAAALisAN6LtyiAFgAA
+  </data>
+ </layer>
+ <layer name="LedgesDown" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OQQkAQAgAQbF/rmtiDyP4PMQZ2P9GAMA+lXMvf18CAADAbQ1CmTxvgBYAAA==
+  </data>
+ </layer>
+ <layer name="random" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VwQ2AIAxA0Q6AA8j+W4CTEHbxoCZYYk8IBv9LOEM+oYgAQFvBicRzbW70ab4nFU0yfSr0sZV9PG+sklQPzyy60X0uvpjb8cetnvrgQB8bfWz0sc3UJ6g/pcVaJ+rT667z0mef1mZ6C2+gj40+tpF9dn4dLz2AFgAA
+  </data>
+ </layer>
+ <layer name="Water" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2XQQrCMBBFPwSRBrxW60ms5/Ia2pNIV3oQE2jpMNhUajWd8h+8XRbJC0kIQAghy/IogGfnpcg9m/XhPHA9AE1w53PPZn3EPvfQpmWft8g+e88zppF9mq4R76IB2Sd6U516LVE6oFIe3byxuo/sJLXEKayvVp5H+kyNHeujtQT7/A/2SbOlPvIvsJSRrfTp/wL6bfnWqTaW+nyy17/QAuyThn3S5OzzApz/rSGAFgAA
+  </data>
+ </layer>
+ <layer name="Collisions" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2XW07DMBBFR/UP2QYV/EPLAioE/7wWUKkbaIEVUKksBLKPtKL7CCqsoxMpVl1nPLbj5qE2V7oaOXGczMmNkiwFwJLxB/r3BDxH/xC2Hfevsfo7Es/Ffg42BkY+a2asVPWBH5fdTmmC577AegnFehUBXKMH6CH6JjLPlXVD5Cch+ISoTj4jvNY7rPdQrA/I4xH9hH5Gv0TmubLqSgwZqkN9xQB+XKRuMz6Ez88Apshjhn5Fv6HfI3qu9IToO8mfMz1DodJ7pnoPzdmhNSL6TvPs6M+dq9T7T43V7fp+176b5JMpFcV3WahcssH1beJcpUx8pNIS+VHF5ci317rZZLLxCZUtD7Y5rmtVJR8+i167/dnbvXea4HOK8uHzLdrtuIJ7fSg+seD/XV385dA/d/xa8N96ZTz24MNd28rjHpvWSJh91Dn0tdYV5MdHofmwcbTx4daK83GT0v9X2+RVx6fj0/E5aj5bSLXcXIAWAAA=
+  </data>
+ </layer>
+ <layer name="random" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SwQkAIAgAwKhH7b9De9YAEfWK6g7EjyKKIfCK3KMM8k7trIf/RM8AAABXqOmNGafNdtzd/4d7Aaxon5IJIIAWAAA=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="72" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OuQ0AIBAEsU0J+fpvlesCCWxp8kl4XW/JqGa1qt1uHwEAAAAAPzgru2ALgBYAAA==
+  </data>
+ </layer>
+</map>
